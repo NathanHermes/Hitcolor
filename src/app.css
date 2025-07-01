@@ -1,3 +1,17 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@theme {
+  --color-hitcolor-50: #e8f3fc;
+  --color-hitcolor-100: #d1e7fa;
+  --color-hitcolor-200: #a4cff4;
+  --color-hitcolor-300: #7bb9ef;
+  --color-hitcolor-400: #4da1ea;
+  --color-hitcolor-500: #2089e4;
+  --color-hitcolor-600: #166ebb;
+  --color-hitcolor-700: #115692;
+  --color-hitcolor-800: #0c3b64;
+  --color-hitcolor-900: #061e32;
+  --color-hitcolor-950: #030d17;
+}

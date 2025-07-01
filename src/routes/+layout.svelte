@@ -2,8 +2,9 @@
 
 <script lang="ts">
   import { page } from "$app/state";
-  import logo from "$lib/assets/logo.svg";
+
   import "../app.css";
+  import Header from "../components/header.svelte";
 
   const appName = "HitColor";
 
@@ -24,23 +25,7 @@
 </svelte:head>
 
 <main class="w-full h-full flex flex-col items-start justify-start">
-  <header class="w-full h-12 flex">
-    <div class="w-full">
-      <div class="w-full h-auto flex items-center justify-start">
-        <img alt="HitColor logo" src={logo} class="w-auto max-h-12" />
-      </div>
-
-      <div>
-        <p>Categorias</p>
-        <p>Sobre nós</p>
-        <p>Contato</p>
-      </div>
-    </div>
-
-    <div class="w-full">
-      <p>T</p>
-    </div>
-  </header>
+  <Header />
 
   {@render children()}
 </main>
