@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+  --color-hitcolor-50: #f1f8fd;
+  --color-hitcolor-100: #dbecfb;
+  --color-hitcolor-200: #add3f5;
+  --color-hitcolor-300: #80bbef;
+  --color-hitcolor-400: #57a5ea;
+  --color-hitcolor-500: #2a8de5;
+  --color-hitcolor-600: #1873c3;
+  --color-hitcolor-700: #135896;
+  --color-hitcolor-800: #0d3e69;
+  --color-hitcolor-900: #072036;
+  --color-hitcolor-950: #03101b;
+}
