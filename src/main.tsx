@@ -1,13 +1,13 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './global.css'
+import { createRoot } from 'react-dom/client';
+import './global.css';
 
-import { Home } from './Home'
-import { Header } from './components/header'
+import { Header } from '@components';
+import { BrowserRouter } from 'react-router';
+import { Home } from './home';
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+  <BrowserRouter>
     <Header />
     <Home />
-  </StrictMode>
+  </BrowserRouter>
 )
