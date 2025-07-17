@@ -1,9 +1,9 @@
 import { createRoot } from 'react-dom/client';
 import './global.css';
 
+import { Header } from '@components';
 import { BrowserRouter } from 'react-router';
-import { Header } from './components';
-import { Home } from './Home';
+import { Home } from './home';
 
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
