@@ -1,5 +1,5 @@
-import { Drawer } from '@components'
 import logoHitcolor from '../assets/logo-hitcolor.svg'
+import { Drawer } from './index'
 
 export const Header = () => {
   return (
