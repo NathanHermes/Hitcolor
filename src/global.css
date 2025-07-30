@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 
 @theme {
-  --font-work-sans: "Work Sans"; 
+  --font-work-sans: "Work Sans";
 
   --color-hitcolor-50: #f1f8fd;
   --color-hitcolor-100: #dbecfb;
@@ -15,4 +15,14 @@
   --color-hitcolor-800: #0d3e69;
   --color-hitcolor-900: #072036;
   --color-hitcolor-950: #03101b;
+}
+
+@layer components {
+  .glass {
+    background: rgba(13, 62, 105, 0.12);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(13, 62, 105, 1);
+  }
 }
