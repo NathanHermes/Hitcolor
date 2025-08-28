@@ -1,15 +1,19 @@
-import { createRoot } from "react-dom/client";
 import "./global.css";
 
-import { BrowserRouter } from "react-router";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Route, Routes } from "react-router";
 import { Footer } from "./components/footer";
 import { Header } from "./components/index";
 import { Home } from "./home";
 
-createRoot(document.getElementById("root")!).render(
+const root = document.getElementById("root")!;
+
+ReactDOM.createRoot(root).render(
   <BrowserRouter>
     <Header />
-    <Home />
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
     <Footer />
   </BrowserRouter>,
 );

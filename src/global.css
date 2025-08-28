@@ -4,17 +4,17 @@
 @theme {
   --font-work-sans: "Work Sans";
 
-  --color-hitcolor-50: #f1f8fd;
-  --color-hitcolor-100: #dbecfb;
-  --color-hitcolor-200: #add3f5;
-  --color-hitcolor-300: #80bbef;
-  --color-hitcolor-400: #57a5ea;
-  --color-hitcolor-500: #2a8de5;
-  --color-hitcolor-600: #1873c3;
-  --color-hitcolor-700: #135896;
-  --color-hitcolor-800: #0d3e69;
-  --color-hitcolor-900: #072036;
-  --color-hitcolor-950: #03101b;
+  --color-hitcolor-50: #edeff8;
+  --color-hitcolor-100: #dee1f2;
+  --color-hitcolor-200: #b9c1e4;
+  --color-hitcolor-300: #98a3d7;
+  --color-hitcolor-400: #7786ca;
+  --color-hitcolor-500: #5265bc;
+  --color-hitcolor-600: #3f50a2;
+  --color-hitcolor-700: #324081;
+  --color-hitcolor-800: #242e5d;
+  --color-hitcolor-900: #131830;
+  --color-hitcolor-950: #090b16;
 }
 
 @layer components {
