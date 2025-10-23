@@ -1,4 +1,4 @@
-import etiquetas_brancas from "@/assets/etiquetas-brancas.png";
+import etiquetas_brancas from "@/assets/etiquetas-brancas.svg";
 import ilustrative_images from "@/assets/ilustrative-image.png";
 import { Header } from "@/components/Header";
 
